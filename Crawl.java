@@ -3,7 +3,6 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.HashSet;
@@ -62,9 +61,8 @@ public class Crawl {
         catch (IllegalArgumentException e){
         	
         }
-		return URLset;
-        
-    }
+	return URLset;
+    	}
 	
 	/**
 	 * Starts crawling from the BASE URL
